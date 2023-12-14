@@ -1,7 +1,7 @@
 library(shiny)
 library(shinyWidgets)
-source("/Users/pujasaha/Desktop/Urology/Web_ProstateCancer/model.R")
-data<-read_excel("/Users/pujasaha/Desktop/Urology/Data/finaldataset_for_model.xlsx")
+source("model.R")
+data<-read_excel("Data/finaldataset_for_model.xlsx")
 
 
 # Define UI ----
